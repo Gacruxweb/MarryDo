@@ -1,0 +1,13 @@
+header{
+    background-color: aqua;
+    height: 120px;
+
+}
+h1{
+    color: brown;
+    text-align: center;
+    border: solid 3px;
+    border-color: goldenrod;
+    border-radius: 10px;
+
+}
