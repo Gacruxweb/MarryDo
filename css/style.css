@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;600&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: #000000;
+}
+/*------- Header area start-----*/
+
+header::after{
+    position: absolute;
+   
+}
+header .navigation .logo_sec{
+   width: 100px;
+    
+}
+header .navigation li{
+    margin: 0px 16px;
+    
+}
+header .navigation a{
+    color: #ffffff;
+    padding: 8px 0;
+    border-radius: 1px;
+}
+header .navigation a:hover, .active-page{
+    background-image: linear-gradient(to top, #f30089, #c777b800, #b983ca00, #aa8fd800, #9a9ae100, #8aa7ec00);
+    transition: .5s;
+}
+header .hero{
+    height: 500px;
+   
+}
+
+/*------- Header area start-----*/
+
+
+
+/*------- hero area css-----*/
+
+.hero{
+    position: relative;
+    padding: 40px 0;
+}
+.hero::after{
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg,#000000,#000000,#00000000);
+
+}
+
+
+.text_area{
+  z-index: 1;
+  color: white;
+  padding: 0 10px;
+  margin: auto 0;
+}
+.text_area button{
+    background: #f30089;
+    color: #ffffff;
+    width: 200px;
+}
+
+#slider {
+    position: relative;
+    overflow: hidden;
+    
+}
+
+#slider img {
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+#slider img.active {
+    opacity: 1;
+}
+
+
+
+
+
+
