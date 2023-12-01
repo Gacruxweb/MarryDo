@@ -78,7 +78,6 @@ header .account .log_btn{
 
 }
 
-
 .text_area{
   z-index: 1;
   color: white;
@@ -96,8 +95,7 @@ header .account .log_btn{
     transition: .4s;
     
 }
-
-
+/*----------------- css for slider------------*/
 
 #slider {
     width: 500px;
@@ -123,23 +121,17 @@ header .account .log_btn{
 }
 
 
-#stages .inner_stages .stages_text{
-    
-    
-}
+
 #stages .inner_stages .stages_text h2{
     font-size: 30px;
     color: #ffffff;   
 }
-#stages .stage_body{
-    
-      
-}
+
 #stages .stage_body .stage_card {
     background: #eac3d9;
     padding: 10px;
     border-radius: 5px;
-    max-width: 340px;
+    max-width: 300px;
     width: 100%;
       
 }
@@ -153,6 +145,98 @@ header .account .log_btn{
     max-width: 400px;
     width: 100%;
     border-radius: 5px;
+}  
+#stages .stage_body .stage_card h3{
+   font-size: 20px;
+   margin: 10px 0;
+   text-align: center;
+}    
+#stages .stage_body .stage_card p{
+   font-size: 14px;
+   text-align: center;
+   
+}    
+#stages .stage_body .stage_card button{
+   background-color: #f30089;
+   color: #ffffff;
+   float: right;
+   font-size: 14px;
       
 }
+/*----------------- footer css----------*/
+
+footer{
+    height: 200px;
+    background: #041325;
+    padding: 10px 0;
+}
+footer .address_section h4{
+    font-size: 16px;
+    
+}
+footer ul li {
+    display: inline-block;
+
+}
+footer ul li a{
+    display: block;
+    font-size: 20px;
+    color: #ffffff;
+}
+footer ul li a .fa-facebook{
+    color: #4267b2;
+    
+}
+footer ul li a .fa-whatsapp{
+    color: #075e54;
+    
+}
+footer ul li a .fa-envelope{
+    color: #c71610;
+
+    
+}
+footer ul li a .fa-twitter{
+    color: #1d9bf0;
+    
+}
+
+footer form{
+    border: 1px solid #f30089;
+    border-radius: 5px;
+    padding: 5px;
+    width: 200px;
+    height: 100%;
+
+}
+
+footer .form_area input{
+    color: white;
+    height: 20px;
+    width: 100%;
+    margin: 5px 0;
+    
+}
+footer .form_area textarea{
+    color: white;
+    height: 25px;
+    width: 100%;
+    margin: 5px 0;
+}
+::placeholder{
+    font-size: 12px;
+}
+footer .form_area input[type=submit]{
+    width: 70px;
+    background: #f30089;
+    border: 0;
+    outline: 0;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 0px 10px;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-left: 30%;
+}
+
 
