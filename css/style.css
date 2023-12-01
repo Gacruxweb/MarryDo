@@ -7,6 +7,9 @@
 ::-webkit-scrollbar{
     width: 0;
 }
+.marydo{
+    color: #f30089;
+}
 
 body{
     width: 100%;
@@ -16,14 +19,20 @@ body{
 }
 /*------- Header area start-----*/
 
+header{
+    height: 700px;
+}
 header::after{
     position: absolute;
    
 }
-header .navigation .logo_sec{
-   width: 100px;
+header .navigation .logo_sec img{
+    background: #eac3d9;
+    width: 100px;
+    border-radius: 50%;
     
 }
+
 header .navigation li{
     margin: 0px 16px;
     
@@ -32,16 +41,24 @@ header .navigation a{
     color: #ffffff;
     padding: 8px 0;
     border-radius: 1px;
+    font-size: 20px;
+    
 }
-header .navigation a:hover, .active-page{
+header .navigation a:hover,.active-page{
     background-image: linear-gradient(to top, #f30089, #c777b800, #b983ca00, #aa8fd800, #9a9ae100, #8aa7ec00);
-    transition: .5s;
+    transition: .4s ease-in;
 }
 header .hero{
     height: 500px;
    
 }
 
+header .account .log_btn{
+    background: #f30089;
+    color: #ffffff;
+    padding: 5px 20px;
+
+}
 /*------- Header area start-----*/
 
 
@@ -65,7 +82,7 @@ header .hero{
 .text_area{
   z-index: 1;
   color: white;
-  padding: 0 10px;
+  padding: 0 20px;
   margin: auto 0;
 }
 .text_area button{
@@ -73,21 +90,32 @@ header .hero{
     color: #ffffff;
     width: 200px;
 }
-
-#slider {
-    position: relative;
-    overflow: hidden;
+.text_area button:hover{
+    color: #ffffff;
+    box-shadow: 5px #f30089;
+    transition: .4s;
     
 }
 
+
+
+#slider {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+
 #slider img {
-    border-radius: 5px;
+    max-width: 554px;
     width: 100%;
     height: auto;
+    position: absolute;
     top: 0;
     left: 0;
     opacity: 0;
-    transition: opacity 1s ease-in-out;
+    transition: opacity 3s ease-in-out;
+    border-radius: 5px;
 }
 
 #slider img.active {
@@ -95,7 +123,36 @@ header .hero{
 }
 
 
-
-
-
+#stages .inner_stages .stages_text{
+    
+    
+}
+#stages .inner_stages .stages_text h2{
+    font-size: 30px;
+    color: #ffffff;   
+}
+#stages .stage_body{
+    
+      
+}
+#stages .stage_body .stage_card {
+    background: #eac3d9;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 340px;
+    width: 100%;
+      
+}
+#stages .stage_body .stage_card {
+    background: #eac3d9;
+    padding: 10px;
+    border-radius: 5px;
+      
+}
+#stages .stage_body .stage_card img{
+    max-width: 400px;
+    width: 100%;
+    border-radius: 5px;
+      
+}
 
