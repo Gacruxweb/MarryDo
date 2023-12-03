@@ -131,7 +131,7 @@ header .account .log_btn{
     background: #eac3d9;
     padding: 10px;
     border-radius: 5px;
-    max-width: 300px;
+    max-width: 280px;
     width: 100%;
       
 }
@@ -142,7 +142,7 @@ header .account .log_btn{
       
 }
 #stages .stage_body .stage_card img{
-    max-width: 400px;
+    max-width: 300px;
     width: 100%;
     border-radius: 5px;
 }  
