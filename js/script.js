@@ -1,6 +1,6 @@
 
 
-let images = ["img1.jpeg", "img2.jpeg", "img3.jpeg"];
+let images = ["1.jpeg", "2.jpeg", "3.jpeg"];
 
 let slider = document.getElementById("slider");
 let slides = slider.getElementsByTagName("img");
