@@ -93,6 +93,12 @@ header .account .log_btn:hover{
     color: #ffffff;
     width: 200px;
 }
+.text_area button a{
+    background: #f30089;
+    text-decoration: none;
+    color: #ffffff;
+    width: 200px;
+}
 .text_area button:hover{
     color: #ffffff;
     box-shadow: 5px #f30089;
@@ -109,9 +115,6 @@ header .account .log_btn:hover{
 }
 
 #slider img {
-    max-width: 554px;
-    width: 100%;
-    height: auto;
     position: absolute;
     top: 0;
     left: 0;
@@ -137,13 +140,9 @@ header .account .log_btn:hover{
     border-radius: 5px;
     max-width: 280px;
     width: 100%;
-      
-}
-#stages .stage_body .stage_card {
-    background: #6b6368;
+    background: #d2d2d2;
     padding: 10px;
-    border-radius: 5px;
-      
+    border-radius: 5px;  
 }
 #stages .stage_body .stage_card img{
     max-width: 280px;
@@ -215,17 +214,21 @@ footer form{
 }
 
 footer .form_area input{
-    color: white;
+    color:#f30089;
+    font-size: 12px;
     height: 20px;
     width: 100%;
     margin: 5px 0;
+    outline: 0;
     
 }
 footer .form_area textarea{
-    color: white;
+    color: #f30089;
     height: 25px;
     width: 100%;
     margin: 5px 0;
+    font-size: 12px;
+    outline: 0;
 }
 ::placeholder{
     font-size: 12px;
@@ -241,6 +244,7 @@ footer .form_area input[type=submit]{
     justify-content: center;
     margin-bottom: 10px;
     margin-left: 30%;
+    color: #ffffff;
 }
 
 
