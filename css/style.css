@@ -59,6 +59,10 @@ header .account .log_btn{
     padding: 5px 20px;
 
 }
+header .account .log_btn:hover{
+    background: #790145;
+
+}
 /*------- Header area start-----*/
 
 
@@ -120,7 +124,7 @@ header .account .log_btn{
     opacity: 1;
 }
 
-
+/*----------stage area css-----*/
 
 #stages .inner_stages .stages_text h2{
     font-size: 30px;
@@ -142,7 +146,11 @@ header .account .log_btn{
       
 }
 #stages .stage_body .stage_card img{
+<<<<<<< HEAD
     max-width: 300px;
+=======
+    max-width: 280px;
+>>>>>>> f6034a77717e4113e31281c7477940c964c4eec5
     width: 100%;
     border-radius: 5px;
 }  
