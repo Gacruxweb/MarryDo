@@ -70,8 +70,11 @@ h1{
 table{
     background: #f30089;
     text-align: center;
-     font-size: 14px;
+    font-size: 14px;
+    
+
 }
+
 
 th{
     background-color: rgb(160, 122, 122);
@@ -80,9 +83,11 @@ th{
 }
 tr{
     height: 40px;
+    border-radius: 15px;
 }
 tr:nth-child(2n+1){
     background: cyan;
+
 
 }
 img{
@@ -92,4 +97,93 @@ img{
     margin-top: 30px;
     margin-left: 95px;
 }
+.des{
+    background-color: cyan;
+    border: solid palevioletred 5px;
+    border-radius: 10px;
+
+}
+
+
+/*----------------- footer css----------*/
+
+footer{
+    height: 200px;
+    background: #041325;
+    padding: 10px 0;
+}
+footer .address_section h4{
+    font-size: 16px;
+    
+}
+footer ul li {
+    display: inline-block;
+
+}
+footer ul li a{
+    display: block;
+    font-size: 20px;
+    color: #ffffff;
+}
+footer ul li a .fa-facebook{
+    color: #4267b2;
+    
+}
+footer ul li a .fa-whatsapp{
+    color: #075e54;
+    
+}
+footer ul li a .fa-envelope{
+    color: #c71610;
+
+    
+}
+footer ul li a .fa-twitter{
+    color: #1d9bf0;
+    
+}
+
+footer form{
+    border: 1px solid #f30089;
+    border-radius: 5px;
+    padding: 5px;
+    width: 200px;
+    height: 100%;
+
+}
+
+footer .form_area input{
+    color:#f30089;
+    font-size: 12px;
+    height: 20px;
+    width: 100%;
+    margin: 5px 0;
+    outline: 0;
+    
+}
+footer .form_area textarea{
+    color: #f30089;
+    height: 25px;
+    width: 100%;
+    margin: 5px 0;
+    font-size: 12px;
+    outline: 0;
+}
+::placeholder{
+    font-size: 12px;
+}
+footer .form_area input[type=submit]{
+    width: 70px;
+    background: #f30089;
+    border: 0;
+    outline: 0;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 0px 10px;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-left: 30%;
+    color: #ffffff;
+}
+
 
