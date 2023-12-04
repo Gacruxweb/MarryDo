@@ -57,21 +57,48 @@ header .account .log_btn{
     padding: 5px 20px;
 
 }
-
 #founder {
-    position: relative;
-    overflow: hidden;
+    background-color: #080017;
+    padding: 20px 0;
    
+}
+#founder .photo_area{
+    padding: 10px;
+    border: 1px solid #f30089;
+    border-radius: 5px;
 }
 #founder .photo_area img{
     max-width: 200px;
     width: 100%;
+    border-radius: 5px;
+}
+#founder .f-button{
+    transition: .4s;
+    background: #f30089; 
+    color: #ffffff;
+}
+#founder .f-button:hover{
+    box-shadow:5px #f30089;
 }
 
+/*================ footer are css=============*/
 
+footer .inner_footer{
+    color: #ffffff;
+}
 
+footer .inner_footer h4,h5{
+    font-size: 14px; 
+}
 
-
+footer .inner_footer a{
+    color: #980659; 
+    transition: .5s;
+}
+footer .inner_footer a:hover{
+    text-decoration: none;
+    color: #f30089; 
+}
 
 
 
