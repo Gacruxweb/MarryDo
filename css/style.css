@@ -101,7 +101,6 @@ header .account .log_btn:hover{
 }
 .text_area button:hover{
     color: #ffffff;
-    box-shadow: 5px #f30089;
     transition: .4s;
     
 }
