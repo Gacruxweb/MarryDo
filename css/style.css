@@ -15,7 +15,7 @@ body{
     width: 100%;
     height: 100vh;
     position: relative;
-    background: #000000;
+    background: #ffffff;
 }
 /*------- Header area start-----*/
 
@@ -25,6 +25,10 @@ header{
 header::after{
     position: absolute;
    
+}
+header .navigation{
+    background: #f7f7f7;
+    border-radius: 5px;
 }
 header .navigation .logo_sec img{
     background: #eac3d9;
@@ -48,10 +52,7 @@ header .navigation a:hover,.active-page{
     background-image: linear-gradient(to top, #f30089, #c777b800, #b983ca00, #aa8fd800, #9a9ae100, #8aa7ec00);
     transition: .4s ease-in;
 }
-header .hero{
-    height: 500px;
-   
-}
+
 
 header .account .log_btn{
     background: #f30089;
@@ -71,15 +72,16 @@ header .account .log_btn:hover{
 
 .hero{
     position: relative;
-    padding: 40px 0;
+    padding: 20px 0;
+    border-radius: 5px;
 }
 .hero::after{
     position: absolute;
     content: '';
     height: 100%;
     width: 100%;
-    background: linear-gradient(90deg,#000000,#000000,#00000000);
-
+    background: linear-gradient(90deg,#9f9d9d,#acaaaa00,#00000000);
+    border-radius: 5px;
 }
 
 .text_area{
@@ -129,6 +131,10 @@ header .account .log_btn:hover{
 
 /*----------stage area css-----*/
 
+#stages .inner_stages{
+    background: #f7f7f7;
+    border-radius: 5px;
+}
 #stages .inner_stages .stages_text h2{
     font-size: 30px;
     color: #ffffff;   
