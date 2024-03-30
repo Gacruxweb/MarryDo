@@ -42,7 +42,7 @@ header .navigation li{
     
 }
 header .navigation a{
-    color: #ffffff;
+    color: #131313;
     padding: 8px 0;
     border-radius: 1px;
     font-size: 20px;
@@ -86,7 +86,7 @@ header .account .log_btn:hover{
 
 .text_area{
   z-index: 1;
-  color: white;
+  color:#262626;
   padding: 0 20px;
   margin: auto 0;
 }
@@ -137,7 +137,7 @@ header .account .log_btn:hover{
 }
 #stages .inner_stages .stages_text h2{
     font-size: 30px;
-    color: #ffffff;   
+    color: #262526;   
 }
 
 #stages .stage_body .stage_card {
